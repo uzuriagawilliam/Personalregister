@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Personalregister
 {
-    class Person
+    public class Person
     {
         String perName;
         String perEfter;
@@ -14,8 +14,8 @@ namespace Personalregister
 
         public Person()
         {
-            perName = "";
-            perEfter = "";
+            perName = " ";
+            perEfter = " ";
             perSalary = 0;
         }
         public void addPerson()
